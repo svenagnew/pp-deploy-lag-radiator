@@ -1,22 +1,18 @@
 [
     {
+        "name": "spotlight",
+        "owner": "alphagov"
+    },
+    {
+        "name": "limelight",
+        "owner": "alphagov"
+    },
+    {
         "name": "performanceplatform-admin",
         "owner": "alphagov"
     },
     {
-        "name": "backdrop",
-        "owner": "alphagov"
-    },
-    {
-        "name": "stagecraft",
-        "owner": "alphagov"
-    },
-    {
-        "name": "pp-puppet",
-        "owner": "alphagov"
-    },
-    {
-        "name": "spotlight",
+        "name": "performanceplatform-client",
         "owner": "alphagov"
     },
     {
@@ -24,7 +20,116 @@
         "owner": "alphagov"
     },
     {
-        "name": "performanceplatform-notifier",
+        "name": "performanceplatform-documentation",
+        "owner": "alphagov"
+    },
+    {
+        "name": "performanceplatform-collector-config",
+        "owner": "alphagov"
+    },
+    {
+        "name": "gapy",
+        "owner": "alphagov"
+    },
+    {
+        "baseUrl": "https://github.gds/api/v3/names",
+        "name": "pp-deployment",
+        "owner": "gds"
+    },
+    {
+        "baseUrl": "https://github.gds/api/v3/names",
+        "name": "google-dev-credentials",
+        "owner": "gds"
+    },
+    {
+        "baseUrl": "https://github.gds/api/v3/names",
+        "name": "pp-pilotis",
+        "owner": "gds"
+    },
+    {
+        "name": "pp-smokey",
+        "owner": "alphagov"
+    },
+    {
+        "name": "backdrop-collector-plugins",
+        "owner": "alphagov"
+    },
+    {
+        "baseUrl": "https://github.gds/api/v3/names",
+        "name": "pp-manual",
+        "owner": "gds"
+    },
+    {
+        "baseUrl": "https://github.gds/api/v3/names",
+        "name": "pp-sync",
+        "owner": "gds"
+    },
+    {
+        "name": "backdrop",
+        "owner": "alphagov"
+    },
+    {
+        "name": "backdrop-collector",
+        "owner": "alphagov"
+    },
+    {
+        "name": "puppet-logstash",
+        "owner": "alphagov"
+    },
+    {
+        "name": "backdrop-ga-collector",
+        "owner": "alphagov"
+    },
+    {
+        "name": "backdrop-ga-realtime-collector",
+        "owner": "alphagov"
+    },
+    {
+        "name": "backdrop-google-spreadsheet-collector",
+        "owner": "alphagov"
+    },
+    {
+        "name": "backdrop-pingdom-collector",
+        "owner": "alphagov"
+    },
+    {
+        "name": "backdropsend",
+        "owner": "alphagov"
+    },
+    {
+        "name": "fourth-wall",
+        "owner": "alphagov"
+    },
+    {
+        "name": "performance-platform",
+        "owner": "alphagov"
+    },
+    {
+        "name": "pp-development",
+        "owner": "alphagov"
+    },
+    {
+        "name": "pp-puppet",
+        "owner": "alphagov"
+    },
+    {
+        "name": "puppet-backdrop",
+        "owner": "alphagov"
+    },
+    {
+        "name": "puppet-google_credentials",
+        "owner": "alphagov"
+    },
+    {
+        "name": "showtime",
+        "owner": "alphagov"
+    },
+    {
+        "name": "stagecraft",
+        "owner": "alphagov"
+    },
+    {
+        "name": "stageprompt",
         "owner": "alphagov"
     }
 ]
