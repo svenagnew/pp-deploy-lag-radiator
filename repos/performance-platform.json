@@ -1,6 +1,18 @@
 [
     {
+        "name": "pp-puppet",
+        "owner": "alphagov"
+    },
+    {
+        "name": "stagecraft",
+        "owner": "alphagov"
+    },
+    {
         "name": "spotlight",
+        "owner": "alphagov"
+    },
+    {
+        "name": "backdrop",
         "owner": "alphagov"
     },
     {
@@ -65,10 +77,6 @@
         "owner": "gds"
     },
     {
-        "name": "backdrop",
-        "owner": "alphagov"
-    },
-    {
         "name": "backdrop-collector",
         "owner": "alphagov"
     },
@@ -109,10 +117,6 @@
         "owner": "alphagov"
     },
     {
-        "name": "pp-puppet",
-        "owner": "alphagov"
-    },
-    {
         "name": "puppet-backdrop",
         "owner": "alphagov"
     },
@@ -122,10 +126,6 @@
     },
     {
         "name": "showtime",
-        "owner": "alphagov"
-    },
-    {
-        "name": "stagecraft",
         "owner": "alphagov"
     },
     {
