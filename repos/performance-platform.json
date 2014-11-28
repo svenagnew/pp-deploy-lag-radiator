@@ -48,17 +48,17 @@
         "owner": "alphagov"
     },
     {
-        "baseUrl": "https://github.gds/api/v3/names",
+        "baseUrl": "https://github.gds/api/v3/repos",
         "name": "pp-deployment",
         "owner": "gds"
     },
     {
-        "baseUrl": "https://github.gds/api/v3/names",
+        "baseUrl": "https://github.gds/api/v3/repos",
         "name": "google-dev-credentials",
         "owner": "gds"
     },
     {
-        "baseUrl": "https://github.gds/api/v3/names",
+        "baseUrl": "https://github.gds/api/v3/repos",
         "name": "pp-pilotis",
         "owner": "gds"
     },
@@ -71,12 +71,12 @@
         "owner": "alphagov"
     },
     {
-        "baseUrl": "https://github.gds/api/v3/names",
+        "baseUrl": "https://github.gds/api/v3/repos",
         "name": "pp-manual",
         "owner": "gds"
     },
     {
-        "baseUrl": "https://github.gds/api/v3/names",
+        "baseUrl": "https://github.gds/api/v3/repos",
         "name": "pp-sync",
         "owner": "gds"
     },
