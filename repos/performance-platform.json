@@ -1,26 +1,163 @@
 [
-    {
-        "name": "backdrop",
-        "owner": "alphagov"
-    },
-    {
-        "name": "stagecraft",
-        "owner": "alphagov"
-    },
-    {
-        "name": "pp-puppet",
-        "owner": "alphagov"
-    },
-    {
-        "name": "spotlight",
-        "owner": "alphagov"
-    },
-    {
-        "name": "performanceplatform-collector",
-        "owner": "alphagov"
-    },
-    {
-        "name": "performanceplatform-admin",
-        "owner": "alphagov"
-    }
+  {
+    "userName": "alphagov",
+    "repo": "backdrop"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "backdrop-collector"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "backdrop-collector-plugins"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "backdrop-ga-collector"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "backdrop-ga-realtime-collector"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "backdrop-google-spreadsheet-collector"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "backdrop-pingdom-collector"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "backdropsend"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "cheapseats"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "fourth-wall"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "gapy"
+  },
+  {
+    "baseUrl": "https://github.gds/api/v3/repos",
+    "userName": "gds",
+    "repo": "google-dev-credentials"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "govuk_frontend_toolkit"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "govuk_template"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "limelight"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "performance-platform"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "performanceplatform-admin"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "performanceplatform-big-screen-view"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "performanceplatform-client"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "performanceplatform-collector"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "performanceplatform-collector-config"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "performanceplatform-documentation"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "performanceplatform-notifier"
+  },
+  {
+    "baseUrl": "https://github.gds/api/v3/repos",
+    "userName": "gds",
+    "repo": "pp-deployment"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "pp-development"
+  },
+  {
+    "baseUrl": "https://github.gds/api/v3/repos",
+    "userName": "gds",
+    "repo": "pp-manual"
+  },
+  {
+    "baseUrl": "https://github.gds/api/v3/repos",
+    "userName": "gds",
+    "repo": "pp-pilotis"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "pp-puppet"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "pp-smokey"
+  },
+  {
+    "baseUrl": "https://github.gds/api/v3/repos",
+    "userName": "gds",
+    "repo": "pp-sync"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "puppet-backdrop"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "puppet-google_credentials"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "puppet-logstash"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "screenshot-as-a-service"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "showtime"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "spotlight"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "stagecraft"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "stageprompt"
+  },
+  {
+    "userName": "alphagov",
+    "repo": "transactions-explorer"
+  }
 ]
