@@ -4,10 +4,6 @@
         "owner": "alphagov"
     },
     {
-        "name": "pp-deploy-lag-radiator",
-        "owner": "alphagov"
-    },
-    {
         "name": "stagecraft",
         "owner": "alphagov"
     },
@@ -24,19 +20,7 @@
         "owner": "alphagov"
     },
     {
-        "name": "performanceplatform-client.py",
-        "owner": "alphagov"
-    },
-    {
-        "name": "performanceplatform-client.js",
-        "owner": "alphagov"
-    },
-    {
         "name": "performanceplatform-collector",
-        "owner": "alphagov"
-    },
-    {
-        "name": "performanceplatform-documentation",
         "owner": "alphagov"
     },
     {
@@ -48,7 +32,7 @@
         "owner": "alphagov"
     },
     {
-        "name": "gapy",
+        "name": "pp-smokey",
         "owner": "alphagov"
     },
     {
@@ -67,7 +51,23 @@
         "owner": "gds"
     },
     {
-        "name": "pp-smokey",
+        "name": "pp-deploy-lag-radiator",
+        "owner": "alphagov"
+    },
+    {
+        "name": "performanceplatform-client.py",
+        "owner": "alphagov"
+    },
+    {
+        "name": "performanceplatform-client.js",
+        "owner": "alphagov"
+    },
+    {
+        "name": "gapy",
+        "owner": "alphagov"
+    },
+    {
+        "name": "performanceplatform-documentation",
         "owner": "alphagov"
     },
     {
