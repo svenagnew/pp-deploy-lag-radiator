@@ -63,6 +63,10 @@
         "owner": "alphagov"
     },
     {
+        "name": "performanceplatform-notifier",
+        "owner": "alphagov"
+    },
+    {
         "name": "gapy",
         "owner": "alphagov"
     },
