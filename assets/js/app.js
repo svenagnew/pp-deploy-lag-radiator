@@ -43,20 +43,20 @@ $(document).ready(function() {
 
     var repos = loadReposFromJson();
     var refresh_rate = getQueryVariable('refresh') || 60 * 1000;
-    var base_tag = getQueryVariable('base');
+    var from_tag = getQueryVariable('from');
     var to_tag = getQueryVariable('to').replace(/\/$/, "") || 'master';
-    var api_token = "55589aa90628cfe6b639d52455e0db51a9bda10b";
+    var api_token = getQueryVariable('token');
     var repo_owner = getQueryVariable('owner') || 'alphagov';
 
 
     var $base = $('#select-base');
         $to = $('#select-to');
 
-    $base.find('option[value='+base_tag+']').prop('selected',true);
+    $base.find('option[value='+from_tag+']').prop('selected',true);
     $to.find('option[value='+to_tag+']').prop('selected',true);
 
     $base.on('change', function(){
-        base_tag = $(this).val();
+        from_tag = $(this).val();
         update(repos, refresh_rate);
     });
 
@@ -67,22 +67,22 @@ $(document).ready(function() {
 
     var repos_container = $('#repos');
 
-    var build_api_url = function(repo, base_tag, to_tag) {
+    var build_api_url = function(repo, from_tag, to_tag) {
         return [
         'https://api.github.com/repos/',
         repo,
         '/compare/',
-        base_tag,
+        from_tag,
         '...',
         to_tag].join('');
     };
 
-    var build_http_compare_url = function(repo, base_tag, to_tag) {
+    var build_http_compare_url = function(repo, from_tag, to_tag) {
         return [
         'https://github.com/',
         repo,
         '/compare/',
-        base_tag,
+        from_tag,
         '...',
         to_tag
         ].join('');
@@ -118,7 +118,7 @@ $(document).ready(function() {
                 .append('<td class="commits">')
                 .append('<td class="merges">')
                 .append($('<td class="name">').append($('<a>').attr('href',
-                    build_http_compare_url(relative_path, base_tag, to_tag)).text(repo.name)))
+                    build_http_compare_url(relative_path, from_tag, to_tag)).text(repo.name)))
                 .append('<td class="time">');
 
             repos_container.append($repo);
@@ -136,7 +136,7 @@ $(document).ready(function() {
         }
 
         $(repos).each(function(i, repo) {
-            api_url = build_api_url([repo.owner,repo.name].join('/'), base_tag, to_tag);
+            api_url = build_api_url([repo.owner,repo.name].join('/'), from_tag, to_tag);
             // console.log(repo, api_url);
             $.ajax({
                 url: api_url,
@@ -157,7 +157,7 @@ $(document).ready(function() {
                     // upadte link
                     repo.$el.find('.name').html(
                         $('<a>').attr('href',
-                        build_http_compare_url([repo.owner,repo.name].join('/'), base_tag, to_tag)
+                        build_http_compare_url([repo.owner,repo.name].join('/'), from_tag, to_tag)
                     ).text(repo.name));
                 },
                 error: function(e) {
