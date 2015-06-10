@@ -36,6 +36,10 @@
         "owner": "alphagov"
     },
     {
+        "name": "performanceplatform-graph-prototypes",
+        "owner": "alphagov"
+    },
+    {
         "name": "pp-smokey",
         "owner": "alphagov"
     },
